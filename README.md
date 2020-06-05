@@ -20,6 +20,10 @@ what is backpropagation ?
 after forward propagating the the activation from the input through the hidden layers to the output we find the errors in the
 activation of the output layers and proagate these errors all the way to the input layers to update the weights .
 
+what is a bias unit ?
+
+a bias unit is basically a neuron with activation 1 and has no input to it i.e its activation is independent of previous layers' activations.
+
 steps in backpropagation
 
 1. err = sum of square of difference in hypothesis and actual output , our objective is to find out rate at which error changes
@@ -46,9 +50,11 @@ w.r.t the weights i.e
           
            dE/dW = delta * a(L-1) [where delta = -2 * sum(hyp-y) * 1 * f(z) * (1-f(z)) ]
            
+           for biases , dE/DB = delta
+           
  3. update the weights accordingly 
-     W + = learning_rate * dE/dW. ( learning rate decides the rate at which we perform gradient descent)
-     
+     W + = learning_rate * dE/dW ( learning rate decides the rate at which we perform gradient descent)
+     B + = learning_rate * dE/dB
  
  steps in optimising a neural network 
  1. perform forward propagation.
