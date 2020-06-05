@@ -1,18 +1,21 @@
 # neuralnetwork
 
-https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNeural_network&psig=AOvVaw3q2yBGbDmQ5JtW_cI8IBlx&ust=1591413262026000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCID_w8fa6ekCFQAAAAAdAAAAABAD
 
 what is a neural network ?
 
-a neural network 
-working of neural network
+a neural network is a represnetation of connections made by neurons in the brain . each unit of a network is called a neuron which contains an input , an assigned weight and its output. a network consists of layers of these neurons which form a network.
 
 what is forward propagation ?
 
+forward propagation is the dot product of activations of a layer and its assigned weights to produce output or activations in the next layer  
 
 
+working of neural network 
+
+a neural network consists of input , hidden and output layers , using the input we forward propagate the respective activations . this process is continued till we reach the output layer .
 
 
+what is backpropagation ?
 
 after forward propagating the the activation from the input through the hidden layers to the output we find the errors in the
 activation of the output layers and proagate these errors all the way to the input layers to update the weights .
