@@ -1,5 +1,6 @@
 # neuralnetwork
 
+https://www.google.com/url?sa=i&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FNeural_network&psig=AOvVaw3q2yBGbDmQ5JtW_cI8IBlx&ust=1591413262026000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCID_w8fa6ekCFQAAAAAdAAAAABAD
 
 what is a neural network ?
 
