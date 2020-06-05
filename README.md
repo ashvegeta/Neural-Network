@@ -7,7 +7,7 @@ a neural network is a represnetation of connections made by neurons in the brain
 
 what is forward propagation ?
 
-forward propagation is the dot product of activations of a layer and its assigned weights to produce output or activations in the next layer  
+forward propagation is the dot product of activations of a layer and its assigned weights to produce output or activations in the next layer .
 
 
 working of neural network 
@@ -30,7 +30,7 @@ steps in backpropagation
 w.r.t the weights i.e
                         dE/dW(L) 
 
-2. we will use chain rule th find out the above derivative so we can update the weights of each layer
+2. we will use chain rule to find out the above derivative so we can update the weights of each layer
 
          given E=sum((hyp-y)^2) and the activation function is f(z)=1/(1+exp(-z)) where z=sum(W.a(L-1)) and (a(L-1)-> activation of previous layer)
          dE/dW(L)=dE/da * da/df * df/dW (where a->activation of layer l , z->activation fucntion , W->weights)
@@ -54,9 +54,10 @@ w.r.t the weights i.e
            
  3. update the weights accordingly 
      W + = learning_rate * dE/dW ( learning rate decides the rate at which we perform gradient descent)
+     
      B + = learning_rate * dE/dB
  
  steps in optimising a neural network 
  1. perform forward propagation.
- 2. perform backpropagation ann update the weights.
- 3. perform the above two steps for the required degree of convergence.
+ 2. perform backpropagation and update the weights.
+ 3. perform the above two steps till you reach the required degree of convergence.
