@@ -1,7 +1,17 @@
 # neuralnetwork
+
+
+what is a neural network ?
+
+a neural network 
 working of neural network
 
-#backpropagation intuition
+what is forward propagation ?
+
+
+
+
+
 
 after forward propagating the the activation from the input through the hidden layers to the output we find the errors in the
 activation of the output layers and proagate these errors all the way to the input layers to update the weights .
