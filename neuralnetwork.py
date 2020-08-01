@@ -49,7 +49,7 @@ class NeuralNet:
             self.ai = hyp
         return self.ai
 
-    def BackProp(self, y, l_rate):
+    def BackProp(self, y, l_rate, m):
         self.error = y - self.ai
         for i in range(self.hidden_layers, -1, -1):
             # finding delta
@@ -58,8 +58,8 @@ class NeuralNet:
             # finding the weight gradient wrt error and updating it
             w_update = self.activation[i] * self.delta[:, np.newaxis]
             b_update = self.delta
-            self.w[i].weight[:, 1:] += l_rate * w_update
-            self.w[i].weight[:, 0] += l_rate * b_update
+            self.w[i].weight[:, 1:] += (l_rate/m) * w_update
+            self.w[i].weight[:, 0] += (l_rate/m) * b_update
 
             # back-propagating error for the previous layer
             self.error = np.dot(self.w[i].weight[:, 1:].T, self.delta)
@@ -69,7 +69,7 @@ class NeuralNet:
         for i in range(0, len(X)):
             for j in range(0, iters):
                 h = self.ForwardProp(X[i])
-                self.BackProp(y[i], l_rate)
+                self.BackProp(y[i], l_rate, len(X))
             hyp.append(h)
         return hyp
 
