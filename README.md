@@ -61,3 +61,8 @@ w.r.t the weights i.e
  1. perform forward propagation.
  2. perform backpropagation and update the weights.
  3. perform the above two steps till you reach the required degree of convergence.
+
+
+References :
+
+[1] http://neuralnetworksanddeeplearning.com/
