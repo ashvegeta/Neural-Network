@@ -66,3 +66,9 @@ w.r.t the weights i.e
 References :
 
 [1] http://neuralnetworksanddeeplearning.com/
+
+Backpropagation Notes :
+
+1. Backprop equations -> https://drive.google.com/file/d/1zsC6jDtkNNd8Bz0v5LGEgYHqe865HZdM/view?usp=sharing
+2. Error Propagation -> https://drive.google.com/file/d/1k4-R81M2RxBF5-DSWnA4lV8KL6gzjkUd/view?usp=sharing
+3.
