@@ -1,4 +1,4 @@
-# neuralnetwork
+# Neural Network
 
 
 what is a neural network ?
