@@ -1,6 +1,4 @@
-# Neural Network 
-
-[to access the latest work click here](https://github.com/ashvegeta/Neural-Network/blob/master/vectorised_nn.ipynb)
+# Neural Network ([to access the latest work click here](https://github.com/ashvegeta/Neural-Network/blob/master/vectorised_nn.ipynb))
 
 what is a neural network?
 
